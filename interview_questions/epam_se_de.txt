@@ -1,0 +1,100 @@
+----------------------------------------------
+
+Find employee names with days when they were absent at work.
+By default if at least one employee was at work this is working day.
+You can find tables with example data below:
+
+EMPLOYEES
+emp_id	emp_name
+1	Alex
+2	Ann
+3	Andres
+4	Alisa
+
+WORK_DAYS
+emp_id	date
+1	2020.01.01
+2	2020.01.01
+3	2020.01.01
+4	2020.01.01
+1	2020.01.02
+2	2020.01.02
+3	2020.01.02
+2	2020.01.03
+3	2020.01.03
+4	2020.01.03
+
+
+RESULT
+emp_name	date
+Alisa	2020.01.02
+Alex	2020.01.03
+
+
+
+
+
+----------------------------------------------
+Python
+
+1) sales_data.csv
+Columns: "customer_id", "product_id", "quantity_sold"
+
+2) customer_data.csv
+Columns: "customer_id", "customer_name", "email"
+
+3) product_data.csv
+Columns: "product_id", "product_name", "category", "unit_price"
+
+Combine 3 CSV files and calculate revenue grouped by customer_name, product_name
+revenue = quantity_sold * unit_price
+Output into new CSV file with columns: customer_name, product_name, revenue
+
+sales_data = pd.load()
+
+customer_data =pd.load()
+
+----------------------------------------------
+
+??????  Part of the saved questions  ??????
+
+
+
+General DB
+(How to save dimentions/changes)
+(Indexes)
+(Warehouse vs Lakehouse)
+(Which datamart has lower normalization or smth similar)
+(inner join with same keys, will dublicate the results? in the case of left join? )
+(cdc, how does incremental works, how to see new data of no timestamp is there)
+(is update faster then insert)
+
+
+AWS
+(Types of S3 storage class, how to automaticly change them via CLI)
+(Lambda func default waiting time)
+(Cost monitoring for Lambda)
+(How would you do permition for Lambda to S3)
+
+
+snowflake
+(What kind of Snowflake objects do you know)
+(what kind of tables)
+(what is difference between view and materialized view)
+(what is snowpipe)
+(insert data into snowflake ( use copy, what requirement is needed ) )
+
+
+
+dbt
+(what is dbt contracts)
+(difference between source and ref )
+(what is syntax of macros)
+(what are hooks)
+(Incremental table?)
+(how you run DML in dbt)
+
+
+
+AirFlow
+(What is sensors, how to run DAGs in parallel)

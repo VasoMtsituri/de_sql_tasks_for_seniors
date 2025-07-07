@@ -1,0 +1,16 @@
+1)SQL vs NoSQL
+2)Indexing, partitioning in DBs; Explain index data structures, and it's implementation
+3)Primary Key vs Foreign Key
+4)Name all the joins in SQL you know(Explain the differences)
+5)If we have relative equal data in two tables, which is going to be faster LEFT or INNER join
+6)How joins actually implemented and works in details
+7)COPY vs INSERT in SQL
+8)OLAP vs OLTP
+9)Name all the operators in Airflow you know(Explain the differences)
+10)How can you create your own operator in Airflow
+11)How you can transfer data between DAG's/Tasks?
+12)What is an ACID in SQL (Explain those 4 main concept)
+13)How Transaction works in SQL
+14)Micro-partitioning in Snowflake
+15)How data is stored in Snowflake
+16)Micro-partitioning in Snowflake
